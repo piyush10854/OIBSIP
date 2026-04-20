@@ -5,7 +5,7 @@ print("==== Weather App with 5-Day Forecast ====")
 
 city = input("Enter city name: ")
 
-api_key = "YOUR_API_KEY_HERE"
+api_key = "d7b147dc4c800ac1b4b87d4c38e9f8e3"  # Replace with your OpenWeatherMap API key
 
 url = f"https://api.openweathermap.org/data/2.5/forecast?q={city}&appid={api_key}&units=metric"
 
@@ -16,6 +16,10 @@ temperatures = []
 dates = []
 
 print("\n----- 5 Day Forecast -----\n")
+
+if data["cod"] != "200":
+    print("Error:", data["message"])
+    exit()
 
 # API gives data every 3 hours, so pick every 8th (24 hours)
 for i in range(0, 40, 8):
