@@ -4,7 +4,6 @@ import datetime
 import wikipedia
 import pywhatkit
 
-# Initialize voice engine
 engine = pyttsx3.init()
 
 def speak(text):
@@ -31,32 +30,23 @@ def take_command():
         
     return command
 
-
-# Start Assistant
 speak("Hello, I am your voice assistant")
 
 while True:
     
     command = take_command()
     
-    # Hello
     if "hello" in command:
         speak("Hello, how can I help you")
     
-    
-    # Time
     elif "time" in command:
         time = datetime.datetime.now().strftime("%I:%M %p")
         speak("Current time is " + time)
     
-    
-    # Date
     elif "date" in command:
         date = datetime.datetime.now().strftime("%d %B %Y")
         speak("Today's date is " + date)
     
-    
-    # Wikipedia Search
     elif "who is" in command or "what is" in command:
         speak("Searching Wikipedia")
         try:
@@ -65,14 +55,10 @@ while True:
         except:
             speak("Sorry, I could not find information")
     
-    
-    # Google Search
     elif "search" in command:
         speak("Searching Google")
         pywhatkit.search(command)
     
-    
-    # Exit
     elif "exit" in command or "stop" in command:
         speak("Goodbye")
         break
