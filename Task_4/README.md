@@ -1,12 +1,12 @@
-# 🌤️ Basic Weather App (Python)
+# Basic Weather App (Python)
 
-## 📌 Objective
+## Objective
 
 The objective of this project is to build a simple command-line weather application using Python that fetches real-time weather data for a user-specified location. This project helps beginners understand API integration, JSON data handling, and user interaction.
 
 ---
 
-## ⚙️ Steps Performed
+## Steps Performed
 
 1. Collected user input (city name).
 2. Connected to a weather API (OpenWeatherMap).
@@ -22,7 +22,7 @@ The objective of this project is to build a simple command-line weather applicat
 
 ---
 
-## 🛠️ Tools & Technologies Used
+## Tools & Technologies Used
 
 * **Python** (Programming Language)
 * **Requests Library** (for API calls)
@@ -31,7 +31,7 @@ The objective of this project is to build a simple command-line weather applicat
 
 ---
 
-## 🚀 Features
+## Features
 
 * User-friendly input system
 * Real-time weather data
@@ -44,7 +44,7 @@ The objective of this project is to build a simple command-line weather applicat
 
 ---
 
-## 📊 Outcome
+## Outcome
 
 The project successfully demonstrates how to:
 
@@ -56,7 +56,7 @@ This project strengthens foundational programming skills and provides a base for
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 * Add graphical user interface (GUI)
 * Include weather forecast (5-day prediction)
@@ -65,7 +65,7 @@ This project strengthens foundational programming skills and provides a base for
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 This beginner-level project provides practical experience in Python programming and API integration. It serves as a strong starting point for developing more advanced real-world applications.
 
