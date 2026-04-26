@@ -98,5 +98,6 @@ Category: Normal Weight
 This project is a beginner-friendly implementation that strengthens fundamental Python skills such as user input handling, calculations, and decision-making logic.
 
 ---
-##AUTHOR
+## Author
+
 Piyush Pandey
